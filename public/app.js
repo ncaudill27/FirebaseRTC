@@ -37,8 +37,6 @@ async function createRoom() {
 
   registerPeerConnectionListeners();
 
-  // Add code for creating a room here
-  
   // Code for creating room above
   
   localStream.getTracks().forEach(track => {
